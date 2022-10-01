@@ -21,7 +21,7 @@ def activate():
         if g.user:
             return redirect(url_for('inbox.show'))
         
-        if request.method == ?: 
+        if request.method == 'POST': 
             number = request.args['auth'] 
             
             db = ?
